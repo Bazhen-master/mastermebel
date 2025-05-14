@@ -6,3 +6,10 @@ export default {
   },
   plugins: [],
 };
+theme: {
+  extend: {
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+    }
+  }
+}
