@@ -28,7 +28,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
       
       {subtitle && (
         <motion.p 
-          className="text-lg text-gray-600 max-w-3xl"
+          className={`text-lg text-gray-600 ${center ? 'mx-auto' : ''} max-w-3xl`}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
