@@ -10,11 +10,11 @@ const Hero: React.FC = () => {
       id="main" 
       className="relative min-h-screen flex items-center pt-16"
     >
-      {/* Desktop background */}
+      {/* Desktop and tablet background */}
       <div 
         className="absolute inset-0 hidden md:block bg-cover bg-center"
         style={{ 
-          backgroundImage: "linear-gradient(to right, rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.7)), url('https://images.pexels.com/photos/6207806/pexels-photo-6207806.jpeg')"
+          backgroundImage: `linear-gradient(to right, rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.7)), url('https://images.pexels.com/photos/7319274/pexels-photo-7319274.jpeg?auto=compress&cs=tinysrgb&w=1920')`
         }}
       />
       
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
       </div>
 
       <Container className="relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl backdrop-blur-sm bg-primary-900/30 p-8 rounded-lg">
           <motion.h1 
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 20 }}
