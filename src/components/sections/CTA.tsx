@@ -8,7 +8,7 @@ const CTA: React.FC = () => {
     <section 
       className="py-20 bg-wood-pattern bg-cover bg-center text-white relative overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(to right, rgba(30, 58, 138, 0.95), rgba(30, 58, 138, 0.9)), url('https://images.pexels.com/photos/4846158/pexels-photo-4846158.jpeg')"
+        backgroundImage: "linear-gradient(to right, rgba(30, 58, 138, 0.95), rgba(30, 58, 138, 0.9)), url('/images/cta-bg.jpg')"
       }}
     >
       <Container>
