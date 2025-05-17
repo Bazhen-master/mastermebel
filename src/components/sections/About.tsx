@@ -79,8 +79,8 @@ const About: React.FC = () => {
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              <img 
-                src="https://images.pexels.com/photos/6205509/pexels-photo-6205509.jpeg" 
+               <img 
+                src="/images/workshop.jpg" 
                 alt="Мастерская" 
                 className="w-full h-full object-cover"
               />
