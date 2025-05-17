@@ -17,7 +17,7 @@ const Materials: React.FC = () => {
           {materials.map((material, index) => (
             <motion.div
               key={material.id}
-              className="relative overflow-hidden rounded-lg h-80 group shadow-md"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-[3/4]"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -26,7 +26,10 @@ const Materials: React.FC = () => {
               <img 
                 src={material.imageUrl} 
                 alt={material.name}
+                width={600}
+                height={800}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-900 to-transparent opacity-80" />
               <div className="absolute bottom-0 left-0 p-6 text-white">
