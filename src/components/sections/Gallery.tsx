@@ -47,18 +47,23 @@ const Gallery: React.FC = () => {
           {filteredItems.map((item) => (
             <motion.div
               key={item.id}
-              className="relative overflow-hidden rounded-lg h-64 md:h-80 group shadow-md"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-[3/4]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
               layout
             >
-              <img 
-                src={item.imageUrl} 
-                alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <div className="w-full h-full">
+                <img 
+                  src={item.imageUrl} 
+                  alt={item.title}
+                  width={600}
+                  height={800}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-primary-900 to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 p-6 text-white transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <h3 className="text-xl font-bold mb-1 text-white">{item.title}</h3>
