@@ -53,11 +53,14 @@ const Services: React.FC = () => {
               viewport={{ once: true, margin: "-50px" }}
               variants={cardVariants}
             >
-              <div className="h-48 overflow-hidden">
+              <div className="aspect-[3/4] overflow-hidden">
                 <img 
                   src={service.imageUrl} 
                   alt={service.title} 
+                  width={600}
+                  height={800}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  loading="lazy"
                 />
               </div>
               <div className="p-6">
