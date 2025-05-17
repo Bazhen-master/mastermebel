@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 hidden md:block bg-cover bg-center"
         style={{ 
-          backgroundImage: `linear-gradient(to right, rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.7)), url('https://images.pexels.com/photos/7319274/pexels-photo-7319274.jpeg?auto=compress&cs=tinysrgb&w=1920')`
+          backgroundImage: `url('https://images.pexels.com/photos/7319274/pexels-photo-7319274.jpeg?auto=compress&cs=tinysrgb&w=1920')`
         }}
       />
       
