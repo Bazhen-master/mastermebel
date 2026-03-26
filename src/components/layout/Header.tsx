@@ -73,13 +73,13 @@ const Header: React.FC = () => {
               </a>
             ))}
             <a 
-              href="tel:+79531578843" 
+              href="tel:+79965026179" 
               className={`flex items-center font-medium transition-colors duration-300 hover:text-primary-500 ${
                 scrolled ? 'text-primary-700' : 'text-white'
               }`}
             >
               <Phone size={16} className="mr-2" />
-              +7 953 157-88-43
+              +7 996 502-61-79
             </a>
           </nav>
 
