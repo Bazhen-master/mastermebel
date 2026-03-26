@@ -120,7 +120,7 @@ const Header: React.FC = () => {
                 </a>
               ))}
               <a 
-                href="tel:+79531578843" 
+                href="tel:+79965026179" 
                 className="flex items-center text-primary-700 hover:text-primary-500 transition-colors duration-300 font-medium"
               >
                 <Phone size={16} className="mr-2" />
