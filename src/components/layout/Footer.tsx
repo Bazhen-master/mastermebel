@@ -56,12 +56,12 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
-                <p className="text-gray-300">Санкт-Петербург, Дунайский 58 к 3</p>
+                <p className="text-gray-300">Санкт-Петербург, Колпино</p>
               </div>
               <div className="flex items-center">
                 <Phone size={20} className="mr-2 flex-shrink-0" />
-                <a href="tel:+79531578843" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  +7 953 157-88-43
+                <a href="tel:+79531578843" className="text-gray-300 hover:text-white transition-colors duration-300">+7 996 502-61-79
+                  +7 953 157-88-43 WhatsUp
                 </a>
               </div>
               <div className="flex items-center">
