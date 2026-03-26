@@ -124,7 +124,7 @@ const Header: React.FC = () => {
                 className="flex items-center text-primary-700 hover:text-primary-500 transition-colors duration-300 font-medium"
               >
                 <Phone size={16} className="mr-2" />
-                +7 953 157-88-43
+                +7 996 502-61-79
               </a>
               <Button onClick={() => setIsOpen(false)}>
                 Заказать консультацию
