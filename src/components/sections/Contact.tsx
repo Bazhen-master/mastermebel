@@ -173,10 +173,15 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-medium text-white">Телефон</h4>
                   <p className="text-gray-300">
-                    <a href="tel:+79531578843" className="hover:text-white transition-colors">+ 7 996 502-61-79 <br>
-                      +7 953 157-88-43 WhatsUp
-                    </a>
-                  </p>
+  <a href="tel:+79965026179" className="hover:text-white transition-colors">
+    +7 996 502-61-79
+  </a>
+  <br />
+  <a href="tel:+79531578843" className="hover:text-white transition-colors">
+    +7 953 157-88-43
+  </a>{' '}
+  WhatsApp
+</p>
                 </div>
               </div>
               
